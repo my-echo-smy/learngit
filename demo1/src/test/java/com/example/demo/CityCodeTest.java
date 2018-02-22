@@ -35,12 +35,5 @@ public class CityCodeTest {
     @Resource
     private CityCodeService cityCodeService;
 
-    @Test
-    public void cityTest() {
-        CityCode cityCode = cityCodeService.getCityCode("云F");
-        System.out.println("转换后的jsonwwwwwwwwwwwwwwwwwwwwwwwwwwww数据为" + new Gson().toJson(cityCode));
-        System.out.println("转换后的jsonwwwwwwwwwwwwwwwwwwwwwwwwwwww数据为" + new Gson().toJson(cityCode));
-    }
-
 
 }
